@@ -1,0 +1,38 @@
+﻿已經開始建置於 2015/1/12 上午 12:23:39。
+     1>節點 2 (Build 目標) 上的專案 "C:\Users\hex\Desktop\期末專題_第15組\finalproject\HW\HW\HW.vcxproj"。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(356,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\hex\Desktop\期末專題_第15組\finalproject\include" /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\..\temp\debug\\" /Fd"..\..\temp\debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\source\main.c
+         main.c
+     1>c:\users\hex\desktop\期末專題_第15組\finalproject\include\game.h(115): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 請參閱 'fopen' 的宣告
+     1>c:\users\hex\desktop\期末專題_第15組\finalproject\include\game.h(123): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : 請參閱 'scanf' 的宣告
+     1>c:\users\hex\desktop\期末專題_第15組\finalproject\include\game.h(201): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : 請參閱 'scanf' 的宣告
+     1>c:\users\hex\desktop\期末專題_第15組\finalproject\include\game.h(198): warning C4101: 'y' : 未參考的區域變數
+     1>c:\users\hex\desktop\期末專題_第15組\finalproject\include\game.h(198): warning C4101: 'x' : 未參考的區域變數
+     1>c:\users\hex\desktop\期末專題_第15組\finalproject\include\game.h(207): warning C4244: '函式' : 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+     1>c:\users\hex\desktop\期末專題_第15組\finalproject\include\game.h(361): warning C4101: 'i' : 未參考的區域變數
+     1>c:\users\hex\desktop\期末專題_第15組\finalproject\include\game.h(361): warning C4101: 'j' : 未參考的區域變數
+     1>c:\users\hex\desktop\期末專題_第15組\finalproject\include\game.h(390): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : 請參閱 'scanf' 的宣告
+     1>c:\users\hex\desktop\期末專題_第15組\finalproject\include\score.h(14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 請參閱 'fopen' 的宣告
+     1>c:\users\hex\desktop\期末專題_第15組\finalproject\include\score.h(27): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 請參閱 'fscanf' 的宣告
+     1>c:\users\hex\desktop\期末專題_第15組\finalproject\include\score.h(44): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : 請參閱 'scanf' 的宣告
+     1>c:\users\hex\desktop\期末專題_第15組\finalproject\include\score.h(48): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : 請參閱 'scanf' 的宣告
+     1>c:\users\hex\desktop\期末專題_第15組\finalproject\source\main.c(23): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : 請參閱 'scanf' 的宣告
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\temp\debug\HW.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\temp\debug\HW.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\temp\debug\HW.lib" /MACHINE:X86 ..\..\temp\debug\main.obj
+         HW.vcxproj -> C:\Users\hex\Desktop\期末專題_第15組\finalproject\HW\HW\..\..\temp\debug\HW.exe
+     1>專案 "C:\Users\hex\Desktop\期末專題_第15組\finalproject\HW\HW\HW.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:01.22
